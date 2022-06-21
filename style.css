@@ -1,0 +1,99 @@
+.Container{
+    background-color: red;
+    width: 100%;
+    background-size: cover;
+    min-height: 0.125rem;
+    height: 100%;
+}
+.Pizzas {
+display: grid;
+justify-content: space-around;
+min-height: 0.125rem;  
+
+}
+
+.hd{
+margin: 0.5rem 2%;
+min-height: 0.135rem;
+width: 100%;
+}
+
+.cons {
+    display: grid;
+}
+.Header{
+    background-color: rgb(248, 89, 89);
+    border: 1px dotted;
+    margin: 0.5rem 2%;
+    min-height: 0.135rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+.Cart-box{
+    width: 100%;
+}
+.tr, th, td{
+    border: 2px solid;
+    width: 50%;
+    border-color: black;
+}
+.Large-Pizza {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 196, 0);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.Medium-Pizza {
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-right: 30px;
+    background-color: rgb(43, 43, 245);
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.Small-Pizza {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-top: 15px;
+    background-color: rgb(226, 37, 100);
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.message {
+ padding-bottom: 10px;
+ padding-top: 10;  
+ background-color: moccasin;
+}
+.cal{
+padding-bottom: 10px;
+ padding-top: 30; 
+}
+
+@media (min-width: 729px) {
+    .Pizzas {
+    display: flex;
+    justify-content: space-around;
+    min-height: 0.125rem;  
+    }
+    
+    .hd{
+    margin: 0.5rem 2%;
+    min-height: 0.135rem;
+    width: 100%;
+    }
+    .Cart-box {
+        margin: 0.5rem 2%;
+        min-height: 0.135rem;
+        width: 100%;
+    }
+    .cons {
+        display: flex;
+    }
+    
+}
