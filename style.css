@@ -35,6 +35,9 @@ h1 {
 } 
 .Cart-box{
     width: 80%;
+    margin: 0.5rem 2%;
+        min-height: 0.135rem;
+        width: 100%;
 }
 .tr, th, td{
     border: 2px solid;
