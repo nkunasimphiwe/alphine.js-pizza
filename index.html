@@ -58,13 +58,14 @@
         },
 
         makePayment() {
-            alert()
+            
             if(!this.paymentAmount) {
                this.paymentMessage = 'No amount Entered!'  
             }
-            if (this.paymentAmount >= this.cartTotal()) {
+             else if (this.paymentAmount >= this.cartTotal()) {
                 this.paymentMessage = 'Payment succesful!'
                 this.clearCard();
+                this.open=false;
             } else {
                 this.paymentMessage = 'Payment failed!'
             }
@@ -171,7 +172,7 @@
                         
                     </td>
                     <td x-show="cartTotal() > 0">
-                        <button class="btn" x-on:click="payNow=true" x-show="!payNow">
+                         <button class="btn" x-on:click="payNow=true" x-show="!payNow">
                             <img src="./images/images.png" width="30" alt="" > Pay 
                         </button>
                     </td>
